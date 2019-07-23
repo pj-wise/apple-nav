@@ -1,6 +1,6 @@
-const AppleData = [
+export const AppleData = [
   {
-    mainLink: Mac,
+    mainLink: "Mac",
     subLinks: [
       {
         model: "MacBook Air"
@@ -23,7 +23,7 @@ const AppleData = [
     ]
   },
   {
-    mainLink: iPad,
+    mainLink: "iPad",
     subLinks: [
       {
         model: "iPad Pro"
@@ -46,7 +46,7 @@ const AppleData = [
     ]
   },
   {
-    mainLink: iPhone,
+    mainLink: "iPhone",
     subLinks: [
       {
         model: "iPhone XS"
@@ -69,7 +69,7 @@ const AppleData = [
     ]
   },
   {
-    mainLink: Watch,
+    mainLink: "Watch",
     subLinks: [
       {
         model: "Apple Watch Series 4"
@@ -92,7 +92,7 @@ const AppleData = [
     ]
   },
   {
-    mainLink: TV,
+    mainLink: "TV",
     subLinks: [
       {
         model: "Apple TV app"
@@ -115,7 +115,7 @@ const AppleData = [
     ]
   },
   {
-    mainLink: Music,
+    mainLink: "Music",
     subLinks: [
       {
         model: "Apple Music"
