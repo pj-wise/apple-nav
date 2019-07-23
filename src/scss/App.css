@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.Nav {
+  background-color: #313131;
+  padding: 1em;
+}
+
+.Nav .link {
+  color: white;
+  margin: 2em;
+  text-decoration: none;
+}
+/*# sourceMappingURL=App.css.map */

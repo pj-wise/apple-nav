@@ -1,7 +1,13 @@
 import React from "react";
-
-function Nav() {
-  return <h2>Nav</h2>;
+import { NavLink } from "react-router-dom";
+import AppleData from "../data";
+function Nav(props) {
+  console.log(props);
+  return (
+    <nav className="Nav">
+      <NavLink className="link">Support</NavLink>
+    </nav>
+  );
 }
 
 export default Nav;

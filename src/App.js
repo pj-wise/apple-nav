@@ -1,12 +1,12 @@
 import React from "react";
-import "./App.css";
+import { Route } from "react-router-dom";
+import "./scss/App.css";
 import NavWrap from "./components/NavWrap";
 
 function App() {
   return (
     <div className="App">
-      <h1>APPLE NAV</h1>
-      <NavWrap />
+      <Route path="/" render={props => <NavWrap {...props} data={data} />} />
     </div>
   );
 }
